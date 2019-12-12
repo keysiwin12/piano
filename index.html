@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Piano</title>
+</head>
+
+<body>
+    
+    <header class="text-center mt-5">
+       <h2>Piano</h2>
+    </header>
+
+    <main class="text-center">
+        <div id="botones">
+            <button type="button" class="btn btn-dark" id="do">DO</button>
+            <button type="button" class="btn btn-dark" id="re" >RE</button>
+            <button type="button" class="btn btn-dark" id="mi">MI</button>
+            <button type="button" class="btn btn-dark" id="fa">FA</button>
+            <button type="button" class="btn btn-dark" id="sol">SOL</button>
+            <button type="button" class="btn btn-dark" id="la">LA</button>
+            <button type="button" class="btn btn-dark" id="si">SI</button>
+        </div>
+    
+        <audio class="do" data-v='3' src="./sonidos/DO.wav" > </audio>
+        <audio class="re" data-v='4' src="./sonidos/RE.wav"></audio>
+        <audio class="mi" data-v='5' src="./sonidos/MI.wav"></audio>
+        <audio class="fa" data-v='6' src="./sonidos/FA.wav"></audio>
+        <audio class="sol" data-v='7' src="./sonidos/SOL.wav"></audio>
+        <audio class="la" data-v='8' src="./sonidos/LA.wav"></audio>
+        <audio class="si" data-v='9' src="./sonidos/SI.wav"></audio>
+    </main>
+
+
+    <form>
+    
+    
+    
+    <script src="../jquery/jquery.js"></script>
+
+    <!-- jquery -->
+    <!-- <script src="./app.js"></script> -->
+
+    <!-- javascript -->
+    <script src="appJS.js"></script>
+
+</body>
+</html>
